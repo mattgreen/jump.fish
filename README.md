@@ -6,9 +6,9 @@
 
 `jump` assumes that projects are stored under a configurable root project directory. Thus, when you enter `j blog`, it expands it out to `cd $j_path/blog`.
 
-Unlike other takes on project switching, **j has no training period**, nor does it rely on fancy algorithms. Instead, `j` is carried by it's support for **tab completions** out of the box. It works as you'd expect:
+Unlike other takes on project switching, **j has no training period**, nor does it rely on fancy algorithms.
 
-    $ j dotfiles/fish/func<kbd>Tab</kbd> # expands to dotfiles/fish/functions
+Instead, `jump` is carried by it's support for **tab completions** out of the box. Entering `j dotfiles/fish/func` <kbd>Tab</kbd> completes to `dotfiles/fish/functions`.
 
 ## Installation
 
